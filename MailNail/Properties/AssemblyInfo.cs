@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MailTest")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("https://github.com/webprofusion/mailnail")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Webprofusion")]
-[assembly: AssemblyProduct("MailTest")]
+[assembly: AssemblyProduct("MailNail")]
 [assembly: AssemblyCopyright("Webprofusion 2008 - 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -1,4 +1,4 @@
-﻿namespace MailTest
+﻿namespace MailNail
 {
     partial class MailNail
     {
@@ -157,7 +157,6 @@
             this.label6.Size = new System.Drawing.Size(26, 13);
             this.label6.TabIndex = 11;
             this.label6.Text = "Port";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtPort
             // 
@@ -176,7 +175,6 @@
             this.label7.Size = new System.Drawing.Size(55, 13);
             this.label7.TabIndex = 13;
             this.label7.Text = "Username";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // txtUsername
             // 
@@ -204,11 +202,11 @@
             this.label8.TabIndex = 16;
             this.label8.Text = "Password";
             // 
-            // MailTest
+            // MailNail
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(290, 269);
+            this.ClientSize = new System.Drawing.Size(376, 278);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtUsername);
@@ -226,9 +224,8 @@
             this.Controls.Add(this.txtFrom);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "MailTest";
-            this.Text = "Mail Nail - SMTP Testing";
-            this.Load += new System.EventHandler(this.MailTest_Load);
+            this.Name = "MailNail";
+            this.Text = "Mail Nail by webprofusion.com";
             this.ResumeLayout(false);
             this.PerformLayout();
 

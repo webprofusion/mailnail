@@ -7,7 +7,7 @@ using System.Net.Mail;
 using System.Text;
 using System.Windows.Forms;
 
-namespace MailTest
+namespace MailNail
 {
     public partial class MailNail : Form
     {
@@ -49,18 +49,6 @@ namespace MailTest
             {
                 MessageBox.Show("Send Failed:" + exp.ToString());
             }
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void MailTest_Load(object sender, EventArgs e)
-        {
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
         }
     }
 }

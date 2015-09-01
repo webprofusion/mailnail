@@ -8,8 +8,8 @@
     <ProjectGuid>{D5DE80A8-02E5-4C10-B135-9F5C0D60CD9B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>MailTest</RootNamespace>
-    <AssemblyName>MailTest</AssemblyName>
+    <RootNamespace>MailNail</RootNamespace>
+    <AssemblyName>MailNail</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <IsWebBootstrapper>true</IsWebBootstrapper>
@@ -51,7 +51,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>MailTest.Program</StartupObject>
+    <StartupObject>MailNail.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
